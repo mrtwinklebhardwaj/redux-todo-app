@@ -118,7 +118,7 @@ Runs on [http://localhost:5174](http://localhost:5174)
 
 ## 📄 License
 
-MIT © 2025 YourName
+MIT © 2025 Twinkle Bhardwaj
 
 ---
 
