@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import AddTodo from './components/AddTodo';
+import TodoList from './components/TodoList';
 
 function App() {
 
   return (
-    <>
-    <h1>Learn React toolkit</h1>
-    </>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4 flex-col">
+      <h1>📝 Redux ToDo App</h1>
+      <AddTodo />
+      <TodoList />
+    </div>
   )
 }
 
