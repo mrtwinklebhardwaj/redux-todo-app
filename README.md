@@ -8,11 +8,6 @@ This project demonstrates:
 - Usage of `createSlice`, `configureStore`, `useSelector`, and `useDispatch`
 - Clean and responsive UI with TailwindCSS
 
----
-
-## 🚀 Live Preview (Optional)
-
-> _Add link here if hosted (e.g. Vercel/Netlify)_
 
 ---
 
@@ -30,10 +25,14 @@ This project demonstrates:
 
 ```
 src/
-├── app/               # Redux store configuration
+|── app/  
+|  └── store.js                     # Redux store configuration
 ├── features/
-│   └── todos/         # Redux slice, actions, reducer for todos
-├── components/        # UI components (AddTodo, TodoList)
+│   └── todos/
+        └── todoSlice.js        # Redux slice, actions, reducer for todos
+├── components/                 # UI components (AddTodo, TodoList)
+       └── AddTodo.jsx
+       └── TodoList.jsx       
 └── App.js             # App entry point
 ```
 
@@ -44,7 +43,7 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/redux-todo-app.git
+git clone https://github.com/mrtwinklebhardwaj/redux-todo-app.git
 cd redux-todo-app
 ```
 
@@ -57,10 +56,10 @@ npm install
 ### 3. Start the App
 
 ```bash
-npm start
+npm run dev
 ```
 
-Runs on [http://localhost:3000](http://localhost:3000)
+Runs on [http://localhost:5174](http://localhost:5174)
 
 ---
 
@@ -113,6 +112,7 @@ Runs on [http://localhost:3000](http://localhost:3000)
 ## 📸 UI Preview
 
 > _Add a screenshot here (optional)_
+![alt text](image.png)
 
 ---
 
